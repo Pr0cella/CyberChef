@@ -87,8 +87,8 @@ class ShowOnMap extends Operation {
         const zoomLevel = args[0];
         const tileUrl = "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
             tileAttribution = "<a href=\"https://wikimediafoundation.org/wiki/Maps_Terms_of_Use\">Wikimedia maps</a> | &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
-            leafletUrl = "https://unpkg.com/leaflet@1.5.0/dist/leaflet.js",
-            leafletCssUrl = "https://unpkg.com/leaflet@1.5.0/dist/leaflet.css";
+            leafletUrl = "/js/leaflet/leaflet.js",
+            leafletCssUrl = "/js/leaflet/leaflet.css";
         return `<link rel="stylesheet" href="${leafletCssUrl}" crossorigin=""/>
 <style>
     #output-text .cm-content,
