@@ -39,7 +39,7 @@ const banner = `/**
 
 module.exports = {
     output: {
-        publicPath: "/cyberchef_10.19.5/",
+        publicPath: "/cyberchef/",
         globalObject: "this",
         assetModuleFilename: "assets/[hash][ext][query]"
     },

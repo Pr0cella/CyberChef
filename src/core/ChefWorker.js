@@ -213,7 +213,7 @@ self.loadRequiredModules = function(recipeConfig) {
         if (!(module in OpModules)) {
             log.info(`Loading ${module} module`);
             self.sendStatusMessage(`Loading ${module} module`);
-            self.importScripts(`${self.docURL}/cyberchef_10.19.5/modules/${module}.js`); // lgtm [js/client-side-unvalidated-url-redirection]
+            self.importScripts(`${self.docURL}/cyberchef/modules/${module}.js`); // lgtm [js/client-side-unvalidated-url-redirection]
             self.sendStatusMessage("");
         }
     });
