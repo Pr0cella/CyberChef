@@ -88,8 +88,8 @@ class ShowOnMap extends Operation {
         const zoomLevel = args[0];
         const tileUrl = "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
             tileAttribution = "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
-            leafletUrl = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
-            leafletCssUrl = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+            leafletUrl = "/js/leaflet/leaflet.js",
+            leafletCssUrl = "/js/leaflet/leaflet.css";
         return `<link rel="stylesheet" href="${leafletCssUrl}" crossorigin=""/>
 <style>
     #output-text .cm-content,

@@ -63,7 +63,7 @@ class OpticalCharacterRecognition extends Operation {
             throw new OperationError("Unsupported file type (supported: jpg,png,pbm,bmp) or no file provided");
         }
 
-        const assetDir = `${self.docURL}/assets/`;
+        const assetDir = `${self.docURL}/cyberchef_10.19.5/assets/`;
         const oem = OEM_MODES.indexOf(oemChoice);
 
         try {
